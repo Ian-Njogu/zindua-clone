@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zindua</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+      <!-- navbar section -->
+      <nav class="flex items-center justify-between bg-white p-4 text-black">
+        <!-- Left: Logo -->
+        <div class="flex items-center">
+            <img src="assets\cropped-Zindua-Transparent-Logo.png" alt="Zindua School Logo" class="h-10">
+        </div>
+        <!-- Right: Links & Apply Button -->
+        <div class="flex items-center space-x-6">
+            <!-- Programs Dropdown -->
+            <div class="relative group">
+                <!-- Main Link with Dropdown Arrow -->
+                <a href="#programs" class="flex items-center hover:text-blue-300">
+                    Programs
+                    <svg class="w-4 h-4 ml-1 transform group-hover:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </a>
+                <!-- Dropdown Menu -->
+                <div class="absolute hidden group-hover:block bg-white text-black shadow-lg rounded mt-2">
+                    <ul class="py-2">
+                        <li><a href="#data-programs" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Data Programs</a></li>
+                        <li><a href="#software-programs" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Software Programs</a></li>
+                        <li><a href="#programs-by-level" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Programs by Your Level</a></li>
+                        <li><a href="#short-tech-courses" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Short Tech Courses</a></li>
+                        <li><a href="#join-free-courses" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Join Our Free Courses</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="relative group">
+                <!-- Main Link with Dropdown Arrow -->
+                <a href="#financing-plans" class="flex items-center hover:text-blue-300">
+                  Financing Plans
+                  <svg class="w-4 h-4 ml-1 transform group-hover:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </a>
+                <!-- Dropdown Menu -->
+                <div class="absolute hidden group-hover:block bg-white text-black shadow-lg rounded mt-2">
+                  <ul class="py-2">
+                    <li><a href="#programs-pricing" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Programs Pricing Options</a></li>
+                    <li><a href="#flexi" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Flexi (Lipa Mdogo Mdogo)</a></li>
+                    <li><a href="#income-share" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Income-Share Agreement</a></li>
+                    <li><a href="#estimate-fees" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Estimate Your Fees</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="relative group">
+                <!-- Main Link with Dropdown Arrow -->
+                <a href="#resources" class="flex items-center hover:text-blue-300">
+                  Resources
+                  <svg class="w-4 h-4 ml-1 transform group-hover:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </a>
+                <!-- Dropdown Menu -->
+                <div class="absolute hidden group-hover:block bg-white text-black shadow-lg rounded mt-2">
+                  <ul class="py-2">
+                    <li><a href="#discover-blog" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Discover Blog</a></li>
+                    <li><a href="#events-masterclasses" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Events/Masterclasses</a></li>
+                    <li><a href="#faqs" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Frequently Asked (FAQs)</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="relative group">
+                <!-- Main Link with Dropdown Arrow -->
+                <a href="#more" class="flex items-center hover:text-blue-300">
+                  More
+                  <svg class="w-4 h-4 ml-1 transform group-hover:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </a>
+                <!-- Dropdown Menu -->
+                <div class="absolute hidden group-hover:block bg-white text-black shadow-lg rounded mt-2">
+                  <ul class="py-2">
+                    <li><a href="#about-us" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">About Us</a></li>
+                    <li><a href="#contact-us" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Contact Us</a></li>
+                    <li><a href="#join-our-team" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Join Our Team</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="relative group">
+                <!-- Main Link with Dropdown Arrow -->
+                <a href="#login" class="flex items-center hover:text-blue-300">
+                    <!-- Login Text -->
+                    Login
+                    <!-- Person Icon -->
+                    <svg class="w-5 h-5 ml-1 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 12c2.28 0 4-1.72 4-4s-1.72-4-4-4-4 1.72-4 4 1.72 4 4 4zm0 2c-4 0-8 2-8 4v1h16v-1c0-2-4-4-8-4z" />
+                    </svg>
+                    <!-- Dropdown Arrow Icon -->
+                    <svg class="w-4 h-4 ml-1 transform group-hover:rotate-180 transition-transform duration-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </a>
+                <!-- Dropdown Menu -->
+                <div class="absolute hidden group-hover:block bg-white text-black shadow-lg rounded mt-2">
+                  <ul class="py-2">
+                    <li><a href="#student-login" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Student Login</a></li>
+                    <li><a href="#affiliate-login" class="block px-4 py-2 hover:bg-gray-100 whitespace-nowrap">Affiliate Login</a></li>
+                  </ul>
+                </div>
+              </div>
+            <!-- Apply Button -->
+            <button class="bg-red-500 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded">
+                Apply Today
+            </button>
+        </div>
+    </nav> 
+    <!-- header -->
+
+    <header class="h-screen rounded-lg w-1000 text-center px-4 rounded-lg">
+        <div class="flex flex-col items-center justify-center h-full bg-orange-50 py-16 px-4">
+                <h1 class="text-5xl font-bold mb-4 text-red-500">Zindua your career in tech:
+                    <span class="text-black">Kenya’s Hidden Gem for Quality Tech Education</span>
+                    
+                </h1>
+                <p class="items-center justify-center">Small classes, personalised mentorship, and an extreme focus on practical learning; join Zindua’s full-time or part-time bootcamp and start your journey in a Software or Data pathway today.</p> 
+                
+            <div class="flex gap-3">
+                 <button class="bg-red-500 text-white rounded-lg px-40 py-2 mt-2 hover:bg-cyan-500 hover:text-white ">Apply Now</button>
+                <button class="bg-white border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 rounded-lg px-40 py-2 mt-2">Explore now</button>
+            </div>
+        </div>
+    </header>
+               
+        
+    
+
+    <main>
+        <div class="mt-2 flex bg-black rounded-lg gap-3 ">
+            <div class="items-center text-center mb-4">
+            <h2 class="text-center text-white font-bold ">Graduates work at top companies</h2>
+            </div>
+            <img src="assets\Andela-Logo-Where-Zindua-Graduates-Work-1536x448.png" alt="" class="w-25 h-10">
+            <img src="assets\Dalberg-Logo-Where-Zindua-Graduates-Work-1-e1700084510748.png" alt="" class="w-10 h-10">
+            <img src="assets\EY-Logo-Where-Zindua-Graduates-Work-1-e1700084679202.png" alt="" class="w-10 h-10">
+            <img src="assets\Huawei-Logo-Where-Zindua-Graduates-Work-1-e1700085230352.png" alt="" class="w-10 h-10">
+
+        </div>
+        <h1 class="text-center text-3xl font-bold mt-5 tracking-wide">Explore Core Programs</h1>
+        <p class="text-center mb-5">We offer coding programs tailored to the most in-demand skills and <br> pathways in the tech job market today.</p>
+    
+    <section id="programs">
+        <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div class="border border-black py-10 rounded-lg px-19">
+                <img src="assets\Undraw-Software-Engineer-Illustration.png" alt="" class="h-40 w-30">
+                <h1 class="text-2xl font-bold ml-5 text-red-500">Software Engineering</h1>
+
+                <p class="ml-5">Graduate in <span class="font-bold">7 months (part-time)</span> or <span class="font-bold">4 months (full-time)</span>. Become a certified full-stack software developer. Beginner-friendly, no prior coding needed.</p>
+
+                <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 px-40 py-2 mt-2 ml-5">Learn More </button>
+            </div>
+
+            <div class="border border-black py-10 rounded-lg px-19">
+                <img src="assets\Undraw-Data-Science-Illustration.png" alt="" class="h-40 w-30">
+                <h1 class="text-2xl font-bold ml-5 text-red-500">Data Science</h1>
+
+                <p class="ml-5">Graduate in <span class="font-bold">7 months (part-time)</span> or <span class="font-bold">4 months (full-time)</span>. Become a certified data scientist. Requires a solid Statistics background, no prior coding needed..</p>
+
+                <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 px-40 py-2 mt-2 ml-5">Learn More </button>
+            </div>
+
+            <div class="border border-black py-10 rounded-lg px-19">
+                <img src="assets\Undraw-DevOps-Engineer-Illustration.png" alt="" class="h-40 w-30">
+                <h1 class="text-2xl font-bold ml-5 text-red-500">Data Analytics</h1>
+
+                <p class="ml-5">Graduate in <span class="font-bold">7 months (part-time)</span> or <span class="font-bold">4 months (full-time)</span>.Become a certified data analyst. Requires some Statistics background, no prior coding needed.</p>
+
+                <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 px-40 py-2 mt-2 ml-5">Learn More </button>
+            </div>
+
+            <div class="border border-black py-10 rounded-lg px-19">
+                <img src="assets\Undraw-Data-Engineer-Illustration.png" alt="" class="h-40 w-30">
+                <h1 class="text-2xl font-bold ml-5 text-red-500">Frontend Development</h1>
+
+                <p class="ml-5">Graduate in <span class="font-bold">7 months (part-time)</span> or <span class="font-bold">4 months (full-time)</span>. Become a certified frontend web developer. Beginner-friendly, no prior coding needed.</p>
+
+                <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 px-40 py-2 mt-2 ml-5">Learn More </button>
+            </div>
+
+            <div class="border border-black py-10 rounded-lg px-19">
+                <img src="assets\Undraw-Data-Engineer-Illustration.png" alt="" class="h-40 w-30">
+                <h1 class="text-2xl font-bold ml-5 text-red-500">Data Engineering</h1>
+
+                <p class="ml-5">Specialisation for <u>Data Analysts and Data Scientists</u> looking to niche into Big Data. Graduate in <span class="font-bold">3 months part-time.</span> Google Cloud Data Engineer certification</p>
+
+                <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 px-40 py-2 mt-2 ml-5">Learn More </button>
+            </div>
+
+            <div class="border border-black py-10 rounded-lg px-19">
+                <img src="assets\Undraw-Data-Engineer-Illustration.png" alt="" class="h-40 w-30">
+                <h1 class="text-2xl font-bold ml-5 text-red-500">DevOps Engineering</h1>
+
+                <p class="ml-5">Specialisation for <u>Software Engineers and Developers</u> looking to niche into Cloud & DevOps. Graduate in <span class="font-bold">3 months part-time.</span> AWS DevOps Engineer certification</p>
+
+                <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 px-40 py-2 mt-2 ml-5">Learn More </button>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    </main>
+</body>
+</html>
