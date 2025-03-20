@@ -8,7 +8,7 @@
 </head>
 <body class="">
       <!-- navbar section -->
-      <nav class="flex items-center justify-between bg-white p-4 text-black ">
+      <nav class="flex items-center justify-between bg-white p-4 text-black fixed w-full z-100">
         <!-- Left: Logo -->
         <div class="flex items-center">
             <img src="assets\cropped-Zindua-Transparent-Logo.png" alt="Zindua School Logo" class="h-10">
@@ -153,7 +153,7 @@
         <p class="text-center mb-5">We offer coding programs tailored to the most in-demand skills and <br> pathways in the tech job market today.</p>
     <!-- Cards -->
     <section id="programs">
-        <div class="grid grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div class="border border-black py-10 rounded-lg px-19">
                 <img src="assets\Undraw-Software-Engineer-Illustration.png" alt="" class="h-40 w-30">
                 <h1 class="text-2xl font-bold ml-5 text-red-500">Software Engineering</h1>
@@ -251,41 +251,79 @@
         <div class="border border-gray-400 py-5 rounded-xl">
           <h3 class="text-red-500 font-bold text-center text-2xl">For High School Grads</h3>
           <p class="mt-4 text-gray-500 text-lg text-center">Just completed high school? Learn to code and upskill into tech and Software Dev even before you join university</p>
-          <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+          <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
         </div>
 
         <div class="border border-gray-400 py-5 rounded-xl">
           <h3 class="text-red-500 font-bold text-center text-2xl">For University Students</h3>
           <p class="mt-4 text-gray-500 text-lg text-center">Complement your degree with employable tech skills. Join part-time while in school or full-time during long holidays</p>
-          <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+          <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
         </div>
 
         <div class="border border-gray-400 py-5 rounded-xl">
           <h3 class="text-red-500 font-bold text-center text-2xl">For University Graduates</h3>
           <p class="mt-4 text-gray-500 text-lg text-center">Level up your degree by upskilling into an in-demand Data or Software career. Unlock limitless career possibilities</p>
-          <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+          <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
         </div>
 
         <div class="border border-gray-400 py-5 rounded-xl">
           <h3 class="text-red-500 font-bold text-center text-2xl">For Working Professionals</h3>
           <p class="mt-4 text-gray-500 text-lg text-center">Overcome your your career plateau by upskilling into tech. Acquire the technical skills shaping the job market</p>
-          <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+          <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
         </div>
 
         <div class="border border-gray-400 py-5 rounded-xl">
           <h3 class="text-red-500 font-bold text-center text-2xl">For Advanced Developers</h3>
           <p class="mt-4 text-gray-500 text-lg text-center">Already a Developer, Data Scientist, or Data Analyst? Specialise into a niche emerging tech pathway</p>
-          <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
+          <button class="bg-white mt-5 border border-2 border-red-500 hover:bg-cyan-500 hover:text-white text-red-500 items-center px-10 py-2 rounded-lg text-xl ml-5">See recommended programs </button>
         </div>
 
         <div class="border border-gray-400 bg-black py-5 rounded-xl">
           <h3 class="text-red-500 font-bold text-center text-2xl">For University Graduates</h3>
           <p class="mt-4 text-white text-lg text-center">Level up your degree by upskilling into an in-demand Data or Software career. Unlock limitless career possibilities</p>
-          <button class="bg-white mt-5 border border-red-500 hover:bg-cyan-500 hover:text-white text-black items-center px-20 py-1 rounded-lg text-xl ml-5">Contact Us </button>
+          <button class="bg-white mt-5 hover:bg-cyan-500 hover:text-white text-black items-center px-20 py-1 rounded-lg text-xl mx-10">Contact Us </button>
         </div>
 
 
       </div>
+
+      <!-- Why Zindua -->
+      <div class="mt-10">
+        <h6 class="uppercase font-bold text-cyan-500 text-center">why choose zindua school</h6>
+        <h5 class="text-center font-bold text-3xl">Why settle for ordinary when you can join the <br> extraordinary?</h5>
+      </div>
+      <div class="flex">
+        <img src="assets\bootcamp-vs.-university-vs.-self-learning-1181672-684x1024.jpg" alt="" class="w-100 h-80 rounded-[100px] ml-10">
+        <div class="">
+          <h2 class="mt-[100px] ml-10 font-bold text-2xl weight-700 tracking-wide"><span class="text-red-500 ">Personalised learning: </span>We believe in quality over quantity</h2>
+          <p class="ml-10">We keep our classes cozy, with just <span class="font-bold"> 7-10 students per class for part-time and 12-15 students per class for full-time.</span> Say goodbye to getting lost in the crowd—our personalised approach ensures you get the attention and support you need to thrive.</p>
+        </div>
+      </div>
+
+      <div class="flex mt-5">
+        <div class="">
+          <h2 class="mt-[100px] ml-10 font-bold text-2xl weight-700 tracking-wide"><span class="text-red-500 ">Learn-Now-Pay-Later: </span>Lipa mdogo mdogo & income-shares</h2>
+          <p class="ml-10">We get it—investing in your future can be daunting. That’s why we offer flexible financing options. With our lipa mdogo mdogo plan, you can <span class="font-bold"> pay fees gradually over a longer time period. </span>With our income-share, you <span class="font-bold">pay 50% of fees and the rest once you are earning.</span></p>
+        </div>
+        <img src="assets\1820919.jpg" alt="" class="w-100 h-80 rounded-[100px] ml-10">
+        
+      </div>
+
+      <div class="flex">
+        <img src="assets\black-and-silver-laptop-computer-on-round-brown-wooden-table-1181243-1024x684.jpg" alt="" class="w-100 h-80 rounded-[100px] ml-10">
+        <div class="">
+          <h2 class="mt-[100px] ml-10 font-bold text-2xl weight-700 tracking-wide"><span class="text-red-500 ">Job Placement Support: </span>Your success is our success</h2>
+          <p class="ml-10"> Your journey doesn’t stop at graduation. Our student success team is dedicated to helping you land your dream gig. From polishing your resume, prepping for interviews, to even connecting you to our employer networks, we’ve got your back every step of the way.</p>
+        </div>
+      </div>
+
+      <div class="mt-5 flex flex-col bg-black rounded-lg gap-3 py-10 items-center">
+        <h2 class="text-white text-3xl font-bold tracking-wider"><span class="text-red-500">Ready to Experience the Zindua Difference?</span> Enroll now, <br> learn to code, and upskill into a career in tech!</h2>
+        <button class="bg-white mt-5 hover:bg-red-500 hover:text-white text-black items-center px-20 py-1 rounded-lg text-xl mx-10">Apply Now</button>
+      </div>
+ 
+      <!-- ZIndua short courses -->
+
 
     </main>
 </body>
